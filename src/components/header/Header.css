@@ -30,6 +30,7 @@
     opacity: 0;
     transition: opacity 4s ease-out;
     margin-top: 270px;
+    margin-right: 40px;
 }
 
 .header__paragraph-up {
@@ -39,6 +40,7 @@
     font-size: 30px;
     font-weight: 200;
     transition: opacity 4s ease-out;
+    margin-right: 40px;
 }
 
 .header__paragraph {
@@ -52,6 +54,7 @@
     transition: opacity 4s ease-out;
     margin-top: 184px;
     margin-bottom: 0;
+    margin-right: 40px;
 }
 
 .header__paragraph-down {
@@ -60,10 +63,12 @@
     font-family: "Cormorant Garamond", serif;
     font-size: 28px;
     transition: opacity 4s ease-out;
+    margin-right: 40px;
 }
 
 .header__timer {
     display: flex;
+    margin-right: 40px;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 25px;
