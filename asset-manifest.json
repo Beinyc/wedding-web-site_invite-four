@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/wedding-web-site_invite-four/static/css/main.c8e275cf.css",
-    "main.js": "/wedding-web-site_invite-four/static/js/main.ebe29036.js",
+    "main.css": "/wedding-web-site_invite-four/static/css/main.140b2866.css",
+    "main.js": "/wedding-web-site_invite-four/static/js/main.3e454053.js",
     "static/media/background-image-header.jpg": "/wedding-web-site_invite-four/static/media/background-image-header.dab082103b005ea44bb5.jpg",
     "static/media/white.jpg": "/wedding-web-site_invite-four/static/media/white.522c7c29aabdeceeebe7.jpg",
     "static/media/123434.jpg": "/wedding-web-site_invite-four/static/media/123434.879d0790e8919dfc836c.jpg",
     "static/media/main__pair.jpg": "/wedding-web-site_invite-four/static/media/main__pair.b705bb4b44c741ef2fcb.jpg",
     "static/media/company.jpg": "/wedding-web-site_invite-four/static/media/company.7e61ad695694d92f708e.jpg",
     "index.html": "/wedding-web-site_invite-four/index.html",
-    "main.c8e275cf.css.map": "/wedding-web-site_invite-four/static/css/main.c8e275cf.css.map",
-    "main.ebe29036.js.map": "/wedding-web-site_invite-four/static/js/main.ebe29036.js.map"
+    "main.140b2866.css.map": "/wedding-web-site_invite-four/static/css/main.140b2866.css.map",
+    "main.3e454053.js.map": "/wedding-web-site_invite-four/static/js/main.3e454053.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8e275cf.css",
-    "static/js/main.ebe29036.js"
+    "static/css/main.140b2866.css",
+    "static/js/main.3e454053.js"
   ]
 }
