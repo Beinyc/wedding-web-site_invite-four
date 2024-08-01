@@ -79,6 +79,7 @@ export default function Main() {
                         <p className={`main__paragraph-people ${isVisible.brideImage ? 'visible' : ''}`}>Невеста</p>
                     </div>
                 </div> */}
+                <button className='main__button'>Подтвредить</button>
             </div>
         </div>
     );

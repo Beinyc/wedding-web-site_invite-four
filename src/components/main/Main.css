@@ -78,6 +78,17 @@
     margin-top: 55px;
 }
 
+.main__button {
+    background: rgb(99, 178, 158);
+    border: 0;
+    color: rgb(247 247 247);
+    font-family: "Cormorant Garamond", serif;
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 26px;
+}
+
 .main__image-people {
     width: 450px;
     height: 450px;
@@ -116,6 +127,12 @@
 
     .main__image-pair {
         width: 80%;
+    }
+}
+
+@media(max-width: 650px) {
+    .main__button {
+        width: 95%;
     }
 }
 

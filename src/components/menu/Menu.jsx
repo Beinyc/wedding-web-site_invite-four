@@ -71,7 +71,7 @@ export default function Menu() {
                 <p ref={refs.paragraph5} className={`menu__paragraph ${isVisible.paragraph5 ? 'visible' : ''}`}>
                     Ждем Вас на свадьбе!
                 </p>
-                <button ref={refs.button} className={`menu__button ${isVisible.button ? 'visible' : ''}`}>Подтвредить</button>
+                {/* <button ref={refs.button} className={`menu__button ${isVisible.button ? 'visible' : ''}`}>Подтвредить</button> */}
             </div>
         </div>
     );
