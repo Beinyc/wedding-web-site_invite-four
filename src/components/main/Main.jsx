@@ -12,10 +12,12 @@ export default function Main() {
         pairParagraph: false,
         groomImage: false,
         brideImage: false,
+        span: false, // Добавляем новое состояние для span
     });
 
     const titleRef = useRef(null);
     const paragraphRef = useRef(null);
+    const spanRef = useRef(null); // Создаем реф для span
     const pairImageRef = useRef(null);
     const pairParagraphRef = useRef(null);
     const groomImageRef = useRef(null);
@@ -25,6 +27,7 @@ export default function Main() {
         const refs = [
             { ref: titleRef, key: 'title' },
             { ref: paragraphRef, key: 'paragraph' },
+            { ref: spanRef, key: 'span' }, // Добавляем span в массив рефов
             { ref: pairImageRef, key: 'pairImage' },
             { ref: pairParagraphRef, key: 'pairParagraph' },
             { ref: groomImageRef, key: 'groomImage' },
@@ -59,25 +62,15 @@ export default function Main() {
                     <br />
                     Приглашаем Вас разделить с нами радость этого незабываемого дня.
                     <br />
-                    </p>
-                    <span ref={paragraphRef} className={`main__span ${isVisible.paragraph ? 'visible' : ''}`}>26.12.2024 в 16:00 </span>
-                    <p ref={paragraphRef} className={`main__paragraph ${isVisible.paragraph ? 'visible' : ''}`}>
+                </p>
+                <span ref={spanRef} className={`main__span ${isVisible.span ? 'visible' : ''}`}>26.12.2024 в 16:00 </span>
+                <p ref={paragraphRef} className={`main__paragraph ${isVisible.paragraph ? 'visible' : ''}`}>
                     Дворец бракосочетания №1
                     <br />
                     Центральня, 55
                 </p>
                 <img ref={pairImageRef} className={`main__image-pair ${isVisible.pairImage ? 'visible' : ''}`} src={pariImage} alt="фото пары" />
                 <p ref={pairParagraphRef} className={`main__paragraph-pair ${isVisible.pairParagraph ? 'visible' : ''}`}>Ждем вас, ваши Август и Маргарита</p>
-                {/* <div className='main__cart-flex'>
-                    <div className='main__cart'>
-                        <img ref={groomImageRef} className={`main__image-people ${isVisible.groomImage ? 'visible' : ''}`} src={groomImage} alt="фото жениха" />
-                        <p className={`main__paragraph-people ${isVisible.groomImage ? 'visible' : ''}`}>Жених</p>
-                    </div>
-                    <div>
-                        <img ref={brideImageRef} className={`main__image-people ${isVisible.brideImage ? 'visible' : ''}`} src={brideImage} alt="фото невесты" />
-                        <p className={`main__paragraph-people ${isVisible.brideImage ? 'visible' : ''}`}>Невеста</p>
-                    </div>
-                </div> */}
                 <button className='main__button'>Подтвредить</button>
             </div>
         </div>

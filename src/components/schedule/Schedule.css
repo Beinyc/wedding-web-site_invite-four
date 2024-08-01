@@ -1,7 +1,8 @@
 .schedule {
     background-image: url(../../images/background-image-header.jpg);
-    background-repeat: no-repeat;
     background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;

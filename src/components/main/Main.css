@@ -44,6 +44,7 @@
     padding: 0;
     font-family: "Cormorant Infant", serif;
     font-size: 30px;
+    opacity: 0;
     transform: translateY(20px);
     transition: opacity 4s ease-out, transform 4s ease-out;
 }
@@ -111,6 +112,7 @@
 
 .main__title.visible,
 .main__paragraph.visible,
+.main__span.visible, /* Добавлено для плавного появления span */
 .main__image-pair.visible,
 .main__paragraph-pair.visible,
 .main__image-people.visible,
