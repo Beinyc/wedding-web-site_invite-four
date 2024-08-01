@@ -61,7 +61,7 @@ export default function Main() {
                     Приглашаем Вас разделить с нами радость этого незабываемого дня.
                     <br />
                     </p>
-                    <span ref={paragraphRef} className={`main__span ${isVisible.paragraph ? 'visible' : ''}`}>26.12.2024 в 10:00 </span>
+                    <span ref={paragraphRef} className={`main__span ${isVisible.paragraph ? 'visible' : ''}`}>26.12.2024 в 16:00 </span>
                     <p ref={paragraphRef} className={`main__paragraph ${isVisible.paragraph ? 'visible' : ''}`}>
                     Дворец бракосочетания №1
                     <br />
@@ -81,6 +81,7 @@ export default function Main() {
                 </div> */}
                 <button className='main__button'>Подтвредить</button>
             </div>
+            <img className='main__border' src={borderImage} alt="фотография бордер" />
         </div>
     );
 }
