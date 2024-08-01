@@ -52,7 +52,6 @@ export default function Main() {
 
     return (
         <div className='main'>
-                <img className='main__border' src={borderImage} alt="фотография бордер" />
             <div className='main__width'>
                 <h2 ref={titleRef} className={`main__title ${isVisible.title ? 'visible' : ''}`}>Дорогой<br /> гость!</h2>
                 <p ref={paragraphRef} className={`main__paragraph ${isVisible.paragraph ? 'visible' : ''}`}>
@@ -81,7 +80,6 @@ export default function Main() {
                 </div> */}
                 <button className='main__button'>Подтвредить</button>
             </div>
-            <img className='main__border' src={borderImage} alt="фотография бордер" />
         </div>
     );
 }

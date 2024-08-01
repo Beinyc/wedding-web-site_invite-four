@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Schedule.css";
+import Company from "../company/company";
 
 export default function Schedule() {
   const [isVisible, setIsVisible] = useState({
@@ -81,6 +82,7 @@ export default function Schedule() {
           <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa739f21d0297e00fbee10804c9a3a16cb4d169836d0944c94043cb133ce794b9&amp;source=constructor"></iframe>
         </div>
       </div>
+      <Company/>
     </div>
   );
 }

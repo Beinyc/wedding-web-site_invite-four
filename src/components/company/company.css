@@ -1,7 +1,4 @@
 .company {
-    background-image: url(../../images/background-image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;

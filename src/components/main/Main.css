@@ -24,7 +24,6 @@
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 4s ease-out, transform 4s ease-out;
-    margin-top: 80px;
 }
 
 .main__paragraph {
