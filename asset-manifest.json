@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/wedding-web-site_invite-free/static/css/main.fa5ad20b.css",
+    "main.js": "/wedding-web-site_invite-free/static/js/main.abb9ae3d.js",
+    "static/media/background-image-header.jpg": "/wedding-web-site_invite-free/static/media/background-image-header.dab082103b005ea44bb5.jpg",
+    "static/media/white.jpg": "/wedding-web-site_invite-free/static/media/white.522c7c29aabdeceeebe7.jpg",
+    "static/media/123434.jpg": "/wedding-web-site_invite-free/static/media/123434.879d0790e8919dfc836c.jpg",
+    "static/media/main__pair.jpg": "/wedding-web-site_invite-free/static/media/main__pair.b705bb4b44c741ef2fcb.jpg",
+    "static/media/company.jpg": "/wedding-web-site_invite-free/static/media/company.7e61ad695694d92f708e.jpg",
+    "index.html": "/wedding-web-site_invite-free/index.html",
+    "main.fa5ad20b.css.map": "/wedding-web-site_invite-free/static/css/main.fa5ad20b.css.map",
+    "main.abb9ae3d.js.map": "/wedding-web-site_invite-free/static/js/main.abb9ae3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa5ad20b.css",
+    "static/js/main.abb9ae3d.js"
+  ]
+}
